@@ -1,0 +1,48 @@
+.page{
+  background-color: #295b7c;
+  background-image: url('../../assets/img/logo_solta.png');
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: 5%;
+  overflow: hidden;
+}
+.page-box{
+  height:100vh;
+}
+.img{
+  width: 70%;
+  margin-top: 10%;
+  margin-left: -70%;
+
+}
+.cel{
+  width: 70%;
+  margin-top: 10%;
+  margin-left: 30%;
+
+}
+.img2{
+  width: 70%;
+  margin-top: 10%;
+  margin-left: -70%;
+
+
+}
+.google_play{
+  width: 70%;
+  margin-top: 10%;
+}
+.tela_smartphone{
+  margin-top: 2%;
+}
+.texto_google_play{
+  margin-top: 10%;
+  text-align: center;
+}
+.card{
+  padding: 4%;
+  background-color: rgba(255, 255, 255, 0.671);
+  border-radius: 15px !important;
+}
+
+

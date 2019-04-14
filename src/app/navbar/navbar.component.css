@@ -1,0 +1,12 @@
+.logo{
+  max-width: 40%;
+}
+.navbar{
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-right: 0px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #00438b;
+}
