@@ -1,5 +1,5 @@
 .page{
-  background-color: #295b7c;
+  background-color: #25485e;
   background-image: url('../../assets/img/logo_solta.png');
   background-repeat: no-repeat;
   background-size: 60%;
@@ -14,17 +14,23 @@
   margin-top: 10%;
   margin-left: -70%;
 
+  margin-bottom: 10%;
+
 }
 .cel{
   width: 70%;
   margin-top: 10%;
-  margin-left: 30%;
+  margin-left: 10%;
+
+  margin-bottom: 10%;
 
 }
 .img2{
   width: 70%;
   margin-top: 10%;
   margin-left: -70%;
+
+  margin-bottom: 10%;
 
 
 }
@@ -36,13 +42,49 @@
   margin-top: 2%;
 }
 .texto_google_play{
+  font-family: cursive;
   margin-top: 10%;
   text-align: center;
+  margin-bottom: 10%;
 }
 .card{
   padding: 4%;
-  background-color: rgba(255, 255, 255, 0.671);
+  background-color: rgba(255, 255, 255, 0.86);
   border-radius: 15px !important;
+}
+@media (max-width: 800px) {
+  .celular_anim{
+    margin-left: 30%;
+  }
+  .page{
+    background-color: #25485e;
+    background-image: url('../../assets/img/logo_solta.png');
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: 5%;
+    overflow: hidden;
+  }
+}
+@media (max-width: 990px) {
+  .img{
+    width: 70%;
+    margin-top: 20%;
+    margin-left: -70%;
+
+  }
+  .cel{
+    width: 70%;
+    margin-top: 20%;
+    margin-left: 10%;
+
+  }
+  .img2{
+    width: 70%;
+    margin-top: 20%;
+    margin-left: -70%;
+
+
+  }
 }
 
 

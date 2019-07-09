@@ -1,12 +1,21 @@
 .logo{
-  max-width: 40%;
+  max-width: 50%;
 }
 .navbar{
   margin-top: 1%;
   margin-left: 5%;
   margin-right: 0px;
 }
+.nav-item{
+  font-family: cursive;
+}
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: #fff;
   background-color: #00438b;
+}
+@media (max-width: 570px) {
+  .logo{
+    max-width: 200%;
+    margin-left: 90%;
+  }
 }
