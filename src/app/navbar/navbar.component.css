@@ -10,7 +10,7 @@
   background-color: #25485e;
 }
 .nav-item{
-  font-family: cursive;
+  font-family: 'Times New Roman', Times, serif;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: #fff;
