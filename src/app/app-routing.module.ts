@@ -1,3 +1,5 @@
+import { PacotesComponent } from './pacotes/pacotes.component';
+import { LoginComponent } from './login/login.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
@@ -10,6 +12,8 @@ const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'contato', component: ContatoComponent},
   {path: 'politica', component: PoliticaComponent},
+  {path: 'login', component: LoginComponent},
+  {path: 'pacotes', component: PacotesComponent},
 ];
 
 @NgModule({

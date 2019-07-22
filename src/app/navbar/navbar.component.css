@@ -2,9 +2,12 @@
   max-width: 50%;
 }
 .navbar{
-  margin-top: 1%;
-  margin-left: 5%;
   margin-right: 0px;
+  box-shadow: 5px 5px 5px #888888;
+}
+.topo{
+  height: 15px;
+  background-color: #25485e;
 }
 .nav-item{
   font-family: cursive;

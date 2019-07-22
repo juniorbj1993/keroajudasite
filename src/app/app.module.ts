@@ -10,6 +10,7 @@ import { LoginComponent } from './login/login.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContatoComponent } from './contato/contato.component';
 import { PoliticaComponent } from './politica/politica.component';
+import { PacotesComponent } from './pacotes/pacotes.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { PoliticaComponent } from './politica/politica.component';
     LoginComponent,
     FooterComponent,
     ContatoComponent,
-    PoliticaComponent
+    PoliticaComponent,
+    PacotesComponent
   ],
   imports: [
     BrowserModule,
